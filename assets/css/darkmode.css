@@ -1657,7 +1657,12 @@
   }
 }
 
-
+@font-face {
+  font-family: 'GitHub Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(assets/fonts/GitHubSans-Regular.woff2) format('woff2');
+}
 /*# sourceMappingURL=dark_high_contrast.scss.map */
 
 /*# sourceMappingURL=dark_high_contrast-27d3a20d9b25.css.map*/
