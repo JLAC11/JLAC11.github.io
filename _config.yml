@@ -11,5 +11,11 @@ plugins:
 minima:
   skin: dark
 titles_from_headings:
-  enabled: true
+  enabled: false
   strip_title: true
+  collections: true
+
+sass:
+  style: compressed
+  sass_dir: assets/css
+  css_dir: assets/css
