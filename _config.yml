@@ -6,3 +6,8 @@ description: My portfolio, containing some of my personal projects and blog post
 remote_theme: jekyll/minima
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
+
+sass:
+  style: compressed
+  sass_dir: assets/css
+  css_dir: assets/css
