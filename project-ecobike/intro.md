@@ -1,8 +1,11 @@
 # Intro 
-This site contains information regarding a brief analysis run on the historical data collected for all trips done in Ecobici (the Mexico City bike sharing system) in the month of April 2025. 
+This site contains information regarding a brief analysis run on the historical data collected for all trips done in Ecobici (the Mexico City bike sharing system) in the month of June 2025. 
 
 All analyses shown here will attempt to answer the following questions 
 - Who is using Ecobici? (Basic exploratory analysis & descriptive statistics) 
 - What clear relationships can we see in Ecobici users? (Basic relationships between variables) 
 - How do trips look like in the Ecobici network? (Origin-Destination matrix analysis) 
 - Is there some clear unsatisifed demand in this network? (Demand analysis integrating the aforementioned topics)
+
+
+Frankly, I had thought of building a much more formal document than this blog, but given time constraints (as well as just wishing to *not* sit for hours at a time doing this), I've decided to go into a more atomic format, sharing over here every once in a while small advances.
