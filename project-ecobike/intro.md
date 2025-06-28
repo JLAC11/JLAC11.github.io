@@ -1,4 +1,7 @@
-# Intro 
+---
+title: Intro
+---
+
 This site contains information regarding a brief analysis run on the historical data collected for all trips done in Ecobici (the Mexico City bike sharing system) in the month of June 2025. 
 
 All analyses shown here will attempt to answer the following questions 
