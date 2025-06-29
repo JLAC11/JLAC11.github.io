@@ -1,8 +1,9 @@
 ---
 ---
 
-@import "minima";
-@import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
+//@import "jekyll/minima";
+/*@import
+  "jekyll/minima/skins/{{ site.minima.skin | default: 'dark' }}",
+  "jekyll/minima/initialize";
+  */
 @import "{{ site.theme }}";

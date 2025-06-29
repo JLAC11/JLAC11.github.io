@@ -3,7 +3,7 @@ title: JLAC's homepage
 description: My portfolio, containing some of my personal projects and blog posts. More to come!
 
 #remote_theme: pages-themes/minimal@v0.2.0
-theme: minima
+remote_theme: jekyll/minima
 
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
@@ -14,8 +14,3 @@ titles_from_headings:
   enabled: false
   strip_title: true
   collections: true
-
-sass:
-  style: compressed
-  sass_dir: assets/css
-  css_dir: assets/css
