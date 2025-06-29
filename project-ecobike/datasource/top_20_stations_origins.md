@@ -1,4 +1,6 @@
-| origen                                             |   Bici |
+## Origins
+
+| Station                                             |   Bikes |
 |:---------------------------------------------------|-------:|
 | CE-271-272 Jesús García - Carlos J. Meneses        |   2906 |
 | CE-064 Sonora - Ámsterdam                          |   2445 |

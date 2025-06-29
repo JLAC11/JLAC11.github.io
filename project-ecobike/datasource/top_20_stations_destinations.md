@@ -1,4 +1,6 @@
-| destino                                            |   Bici |
+## Destinations
+
+| Station                                            |   Bikes |
 |:---------------------------------------------------|-------:|
 | CE-271-272 Jesús García - Carlos J. Meneses        |   4477 |
 | CE-014 Reforma - Río de Plata                      |   2985 |
