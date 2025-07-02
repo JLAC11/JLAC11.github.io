@@ -25,6 +25,9 @@ social_links:
       user_url: "https://www.linkedin.com/in/josé-luis-aguilar-146b94194/",
     }
 
+minima:
+  skin: dark
+
 author: José Luis Aguilar Charfén
 name: José Luis Aguilar Charfén
 email: "aguilarch.joseluis@gmail.com"
