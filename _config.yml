@@ -27,6 +27,10 @@ social_links:
 
 minima:
   skin: dark
+  nav_pages:
+    - README.md
+    - "project-ecobike/intro.md"
+    - "about/contact-us.md"
 
 author: José Luis Aguilar Charfén
 name: José Luis Aguilar Charfén
