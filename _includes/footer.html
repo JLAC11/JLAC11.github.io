@@ -1,0 +1,17 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <ul class="social-media-list">
+      {%- for entry in site.social_links -%}
+        <li>
+          <a rel="me" href="{{ entry.user_url }}" title="{{ entry.platform | capitalize }}">
+            <svg class="svg-icon">
+              <use xlink:href="{{ '/assets/minima-social-icons.svg#' | append: entry.platform | relative_url }}"></use>
+            </svg>
+            <span class="username">{{ entry.platform | capitalize }}</span>
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
+  </div>
+</footer>
