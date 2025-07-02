@@ -94,4 +94,6 @@ We can confirm this by examining usage by hour, but also by day. Let's look at t
 
 ![Usage by hour and day](/assets/images/usage_by_weekday_hour.png)
 
+Seeing this, then we can conclude that, effectively, this is caused by the commuting times of the users. If you notice, Saturday and Sunday also have less movement in general, but it tends to happen around noon.
+
 [^1]: [Data from May 2025](https://ecobici.cdmx.gob.mx/datos-abiertos/).
