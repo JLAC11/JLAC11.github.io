@@ -27,9 +27,6 @@ minima:
       icon: x-twitter
       url: "https://x.com/jekyllrb"
 
-params:
-  defaultTheme: dark
-
 author: José Luis Aguilar Charfén
 name: José Luis Aguilar Charfén
 email: "aguilarch.joseluis@gmail.com"
