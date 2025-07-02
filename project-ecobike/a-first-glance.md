@@ -61,7 +61,7 @@ This station is in Buenavista, near a Metro and a Metrobus stations.
 
 ![Buenavista station](/assets/images/Buenavista_map.png)
 
-# How does usage look like by hour of the day? 
+## How does usage look like by hour of the day?
 
 |   Hour |   Trips (count) |   Duration (min) - Mean |   Duration (min) - Min |   Duration (min) - Max |   Duration (min) - Median |   Duration (min) - 90th Percentile |
 |----------------|---------------------|-----------------------------|----------------------------|----------------------------|-------------------------------|------------------------------------|
