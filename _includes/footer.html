@@ -5,8 +5,12 @@
   <div class="wrapper footer-flex-wrapper">
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1" style="align-items: center;">
+        <table style="border: none; margin: 0; padding: 0;">
+          <tr style="border: none;">
+        <td style="border: none;">
         <img src="{{ site.author_image | default: '/assets/images/JLAC.JPEG' | relative_url }}" alt="{{ site.author | escape }}" class="avatar" style="border-radius:10%; height:5rem;float:left; margin-right:1rem;">
-        <div>
+        </td>
+        <td style="border: none;">
         <ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
@@ -19,7 +23,9 @@
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
         </ul>
-        </div>
+        </td>
+        </tr>
+        </table>
       </div>
       <div class="footer-col footer-col-2">
         <p>{{- site.description | escape -}}</p>

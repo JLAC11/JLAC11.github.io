@@ -6,9 +6,6 @@
 
     {% if site.header_pages %}
     <nav class="site-nav">
-      <label for="nav-trigger">
-        <span class="menu-icon"></span>
-      </label>
       <div class="trigger">
         {% for path in site.header_pages %} {% assign my_page = site.pages |
         where: "path", path | first %} {% if my_page %}
