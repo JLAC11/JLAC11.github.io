@@ -23,3 +23,6 @@ menu:
       link: /about/
     - name: Projects
       link: /projects/
+
+params:
+  defaultTheme: dark
