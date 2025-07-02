@@ -1,4 +1,4 @@
-title: JLAC's homepage
+title: JLAC's Portfolio
 
 description: My portfolio, containing some of my personal projects and blog posts. More to come!
 
@@ -18,14 +18,13 @@ header_pages:
   - "project-ecobike/intro.md"
   - "about/contact-us.md"
 
-minima:
-  social_links:
-    - title: Jekyll repository at GitHub
-      icon: github
-      url: "https://github.com/JLAC11"
-    - title: Jekyll at X (formerly Twitter)
-      icon: x-twitter
-      url: "https://x.com/jekyllrb"
+social_links:
+  - title: Jekyll repository at GitHub
+    icon: github
+    url: "https://github.com/JLAC11"
+  - title: Jekyll at X (formerly Twitter)
+    icon: x-twitter
+    url: "https://x.com/jekyllrb"
 
 author: José Luis Aguilar Charfén
 name: José Luis Aguilar Charfén
