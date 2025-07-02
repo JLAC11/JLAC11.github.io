@@ -23,3 +23,7 @@ minima:
 
 params:
   defaultTheme: dark
+
+author:
+  name: José Luis Aguilar Charfén
+  email: "aguilarch.joseluis@gmail.com"
