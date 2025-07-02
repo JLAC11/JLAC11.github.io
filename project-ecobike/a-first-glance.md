@@ -62,6 +62,7 @@ This station is in Buenavista, near a Metro and a Metrobus stations.
 ![Buenavista station](/assets/images/Buenavista_map.png)
 
 # How does usage look like by hour of the day? 
+
 |   Hour |   Trips (count) |   Duration (min) - Mean |   Duration (min) - Min |   Duration (min) - Max |   Duration (min) - Median |   Duration (min) - 90th Percentile |
 |----------------|---------------------|-----------------------------|----------------------------|----------------------------|-------------------------------|------------------------------------|
 |           0 |            7,782 |                       16.96 |                       0.50 |                     679.75 |                         12.98 |                              32.87 |
@@ -86,9 +87,11 @@ This station is in Buenavista, near a Metro and a Metrobus stations.
 |          23 |           26,995 |                       14.20 |                       0.58 |                   2,178.72 |                         11.00 |                              27.08 |
 
 Notably, there is a mid-day lull with most trips happening either in the morning or in the afternoon (as to be expected if this is used for commuting).
+
 ![Usage by hour](/assets/images/usage_by_hour.png)
 
 We can confirm this by examining usage by hour, but also by day. Let's look at that to confirm our suspicions.
+
 ![Usage by hour and day](/assets/images/usage_by_weekday_hour.png)
 
 [^1]: [Data from May 2025](https://ecobici.cdmx.gob.mx/datos-abiertos/).
