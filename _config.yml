@@ -15,14 +15,11 @@ titles_from_headings:
   strip_title: true
   collections: true
 
-menu:
-  main:
-    - name: Home
-      link: /
-    - name: About
-      link: /about/
-    - name: Projects
-      link: /projects/
+minima:
+  nav_pages:
+    - README.md
+    - project-ecobike/intro.md
+    - about/contact-us.md
 
 params:
   defaultTheme: dark
