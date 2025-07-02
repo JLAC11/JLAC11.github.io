@@ -20,6 +20,13 @@ minima:
     - README.md
     - project-ecobike/intro.md
     - about/contact-us.md
+  social_links:
+    - title: Jekyll repository at GitHub
+      icon: github
+      url: "https://github.com/JLAC11"
+    - title: Jekyll at X (formerly Twitter)
+      icon: x-twitter
+      url: "https://x.com/jekyllrb"
 
 params:
   defaultTheme: dark
