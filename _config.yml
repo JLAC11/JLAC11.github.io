@@ -14,3 +14,12 @@ titles_from_headings:
   enabled: false
   strip_title: true
   collections: true
+
+menu:
+  main:
+    - name: Home
+      link: /
+    - name: About
+      link: /about/
+    - name: Projects
+      link: /projects/
