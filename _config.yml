@@ -14,12 +14,11 @@ titles_from_headings:
   enabled: false
   strip_title: true
   collections: true
-
+header_pages:
+  - README.md
+  - project-ecobike/intro.md
+  - about/contact-us.md
 minima:
-  nav_pages:
-    - README.md
-    - project-ecobike/intro.md
-    - about/contact-us.md
   social_links:
     - title: Jekyll repository at GitHub
       icon: github
