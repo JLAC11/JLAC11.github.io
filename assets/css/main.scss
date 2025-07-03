@@ -6,4 +6,3 @@
   "jekyll/minima/initialize";
   */
 @import "{{ site.theme }}";
-@import "minima/skins/{{ site.minima.skin | default: 'dark' }}";
