@@ -24,7 +24,7 @@
   }
 }
 .footer-flex-wrapper a {
-  color: var(--text-color);
+  /* color: var(--text-color); */
   text-decoration: none;
 }
 .footer-flex-wrapper a:hover {
