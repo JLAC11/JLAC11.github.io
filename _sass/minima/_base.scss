@@ -277,7 +277,8 @@ table {
     }
   }
   th, td {
-    padding: ($spacing-unit * 33.3333333333 * .01) ($spacing-unit * .5);
+    padding: (0px) (0px);
+    vertical-align: text-top;
   }
   th {
     background-color: $table-header-bg-color;
