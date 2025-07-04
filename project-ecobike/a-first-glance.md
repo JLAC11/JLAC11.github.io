@@ -125,4 +125,8 @@ We've seen the most common origins and destinations, but we've yet to see which 
 
 We can notice that few stations have more than 500 trips (just 10). Knowing that there are 677 stations in the network (as of May 2025), and that there were 1,778,591 trips in the month, then we'd expect to have $\frac{1,778,591}{677^2}=3.88$ trips per origin-destination pair (same-station origin and destination allowed)
 
+Let's now take a look at how the number of trips per origin-destination pair are distributed:
+
+![Distribution of trips per origin-destination pair](/assets/images/travelpairs-distribution.png)
+
 [^1]: [Data from May 2025](https://ecobici.cdmx.gob.mx/datos-abiertos/).
