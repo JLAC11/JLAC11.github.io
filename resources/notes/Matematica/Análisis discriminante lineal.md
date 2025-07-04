@@ -46,7 +46,7 @@ $$\widehat{\mu}_j=\frac{1}{\sum_{i=1}^n\mathbb{1}_{Y_{i=j}}}\sum_{i=1}^nX_i\math
 Y la matriz de [covarianza](Machine%20Learning/Matriz%20de%20covarianza.md):
 $$\widehat{\Sigma}= \frac{1}{n-k}((n_1-1)S_1+...+(n_k-1)S_k)$$
 $$\\begin{align}
-S_k &= \frac{1}{n_k-1}\sum\_{i=1}^n(x_i-\widehat{\mu}\_k)(x_i-\widehat{\mu}*k)^T\mathbb{1}*{{Y_i=k}} \\
+S_k &= \frac{1}{n_k-1}\sum\_{i=1}^n(x_i-\widehat{\mu}\_k)(x_i-\widehat{\mu}*k)^T\mathbb{1}*{Y_i=k} \\
 &= \frac{1}{n_k-1}\left\[X_k^TX_k-n_k\widehat{mu}\_k\widehat{mu}\_k^T\right}$$
 Y de manera equivalente en matriz: 
 $$\\widehat{mu}*k=\[1,1,...,1\]\\begin{bmatrix}X_1^T\\ X_2^T\\\vdots\\ X*{nk}^T\end{bmatrix}$$

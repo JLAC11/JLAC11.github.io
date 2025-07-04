@@ -96,4 +96,33 @@ We can confirm this by examining usage by hour, but also by day. Let's look at t
 
 Seeing this, then we can conclude that, effectively, this is caused by the commuting times of the users. If you notice, Saturday and Sunday also have less movement in general, but it tends to happen around noon.
 
+## Which are the most common routes?  
+
+We've seen the most common origins and destinations, but we've yet to see which are the most common routes. Let's take a look at them: 
+
+| Route (origin, destination)           |   Count |
+|------------------------------------------------------------------------------------------------------------------------|--------|
+| ('CE-621 Lago Poniente - Calzada de Tlalpan', 'CE-618 Bartolomé R. Salido - Edzna')                                    |   1,070 |
+| ('CE-495 Amado Nervo - de los Maestros', 'CE-498 de los Maestros - Plan de Agua Prieta')                               |    761 |
+| ('CE-548 Dr. Mariano Azuela - Jose Antonio Alzate', 'CE-498 de los Maestros - Plan de Agua Prieta')                    |    746 |
+| ('CE-618 Bartolomé R. Salido - Edzna', 'CE-621 Lago Poniente - Calzada de Tlalpan')                                    |    720 |
+| ('CE-494 Tláloc - Calzada México Tacuba', 'CE-486 Izcoatl - Circuito Interior Melchor Ocampo')                         |    592 |
+| ('CE-544 Salvador Díaz Mirón - Nogal', 'CE-548 Dr. Mariano Azuela - Jose Antonio Alzate')                              |    564 |
+| ('CE-498 de los Maestros - Plan de Agua Prieta', 'CE-548 Dr. Mariano Azuela - Jose Antonio Alzate')                    |    552 |
+| ('CE-539 Naranjo - Av. Ricardo Flores Magon', 'CE-548 Dr. Mariano Azuela - Jose Antonio Alzate')                       |    545 |
+| ('CE-208 Hesiodo-Lamartine', 'CE-206 Homero-Moliere')                                                                  |    541 |
+| ('CE-548 Dr. Mariano Azuela - Jose Antonio Alzate', 'CE-544 Salvador Díaz Mirón - Nogal')                              |    526 |
+| ('CE-030 Hamburgo - Amberes', 'CE-030 Hamburgo - Amberes')                                                             |    496 |
+| ('CE-208 Hesiodo-Lamartine', 'CE-242 Pról. Moliere-Miguel de Cervantes Saavedra')                                      |    493 |
+| ('CE-174 Joaquín Garcia Icazbalceta-Ignacio Manuel Altamirano', 'CE-111 Guillermo Prieto - Joaquín Velázquez de León') |    491 |
+| ('CE-495 Amado Nervo - de los Maestros', 'CE-499 de los Maestros - Calzada de los Gallos')                             |    479 |
+| ('CE-538 Nogal - Eligio Ancona', 'CE-548 Dr. Mariano Azuela - Jose Antonio Alzate')                                    |    471 |
+| ('CE-174 Joaquín Garcia Icazbalceta-Ignacio Manuel Altamirano', 'CE-257 Manuel Maria Contreras-Villalongin')           |    448 |
+| ('CE-270 De la República-Ponciano Arriaga', 'CE-266-267 Jesús García - Carlos J. Meneses')                             |    447 |
+| ('CE-111 Guillermo Prieto - Joaquín Velázquez de León', 'CE-174 Joaquín Garcia Icazbalceta-Ignacio Manuel Altamirano') |    447 |
+| ('CE-498 de los Maestros - Plan de Agua Prieta', 'CE-495 Amado Nervo - de los Maestros')                               |    446 |
+| ('CE-465 Lago Ginebra-Lago Wetter', 'CE-463 Lago Andrómaco-Lago Zurich')                                               |    445 |
+
+We can notice that few stations have more than 500 trips (just 10). Knowing that there are 677 stations in the network (as of May 2025), and that there were 1,778,591 trips in the month, then we'd expect to have $\frac{1,778,591}{677^2}=3.88$ trips per origin-destination pair (same-station origin and destination allowed)
+
 [^1]: [Data from May 2025](https://ecobici.cdmx.gob.mx/datos-abiertos/).

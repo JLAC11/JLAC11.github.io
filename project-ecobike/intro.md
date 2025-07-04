@@ -1,8 +1,10 @@
 ---
-title: Intro
+title: Ecobici at a glance: Intro
 ---
 
-This site contains information regarding a brief analysis run on the historical data collected for all trips done in Ecobici (the Mexico City bike sharing system) in the month of June 2025. 
+This site contains information regarding a brief analysis run on the historical data collected for all trips done in Ecobici (the Mexico City bike sharing system) in the month of May 2025.  
+
+You can find all the related code [in this repository](https://github.com/JLAC11/Ecobici/tree/master)
 
 All analyses shown here will attempt to answer the following questions 
 - Who is using Ecobici? (Basic exploratory analysis & descriptive statistics) 
@@ -13,3 +15,8 @@ All analyses shown here will attempt to answer the following questions
 
 Frankly, I had thought of building a much more formal document than this blog, but given time constraints (as well as just wishing to *not* sit for hours at a time doing this), I've decided to go into a more atomic format, sharing over here every once in a while small advances.
 Given this, you can start looking at the [data at a first glance](a-first-glance.md)
+
+## Content
+
+1. [Intro](#content)
+2. [A first glance](a-first-glance.md)
