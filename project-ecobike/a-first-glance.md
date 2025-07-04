@@ -86,7 +86,9 @@ This station is in Buenavista, near a Metro and a Metrobus stations.
 |          22 |           45,905 |                       14.33 |                       0.68 |                   4,027.85 |                         10.95 |                              27.67 |
 |          23 |           26,995 |                       14.20 |                       0.58 |                   2,178.72 |                         11.00 |                              27.08 |
 
-Notably, there is a mid-day lull with most trips happening either in the morning or in the afternoon (as to be expected if this is used for commuting).
+Notably, there is a mid-day lull with most trips happening either in the morning or in the afternoon (as to be expected if this is used for commuting). It's also remarkable that 90% of the trips last about half an hour or less.
+
+![Travel trip duration](/assets/images/travel_duration_distribution.png)
 
 ![Usage by hour](/assets/images/usage_by_hour.png)
 
@@ -128,5 +130,11 @@ We can notice that few stations have more than 500 trips (just 10). Knowing that
 Let's now take a look at how the number of trips per origin-destination pair are distributed:
 
 ![Distribution of trips per origin-destination pair](/assets/images/travelpairs-distribution.png)
+
+Most pairs have even less than 25 trips, and by the 100-trip-mark, nearly no stations remain.
+
+## Continuing with the analysis
+
+I'll continue adding information next in [a second mini-post](looking-at-origin-destination-data.md), where I'll discuss more properties we can learn from inspecting origin-destination data.
 
 [^1]: [Data from May 2025](https://ecobici.cdmx.gob.mx/datos-abiertos/).
