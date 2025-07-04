@@ -1,6 +1,0 @@
-[submodule "minima"]
-	path = minima
-	url = https://github.com/jekyll/minima.git
-[submodule "resources/notes"]
-	path = resources/notes
-	url = https://github.com/JLAC11/historical-notes
