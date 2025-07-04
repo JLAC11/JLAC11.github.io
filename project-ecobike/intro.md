@@ -1,5 +1,5 @@
 ---
-title: Ecobici at a glance: Intro
+title: "Ecobici at a glance: Intro"
 ---
 
 This site contains information regarding a brief analysis run on the historical data collected for all trips done in Ecobici (the Mexico City bike sharing system) in the month of May 2025.  
