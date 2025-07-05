@@ -65,7 +65,7 @@ One interesting feature is that the number of trips the largest station receives
 
 Looking at the largest stations, we can see that those are also the largest stations:  
 
-| Station Name                                        |   Capacity |
+| Station Name                                       |   Capacity |
 |----------------------------------------------------|------------|
 | CE-266-267 Jesús García - Carlos J. Meneses        |         75 |
 | CE-271-272 Jesús García - Carlos J. Meneses        |         74 |
@@ -88,6 +88,9 @@ Looking at the largest stations, we can see that those are also the largest stat
 | CE-643 Filipinas - Av. Pirineos                    |         39 |
 | CE-696 México - Malintzin                          |         39 |
 
+Notably, those are also the largest stations (as it would be expected). However, with a back-of-the-envelope calculation, we can see that over the 31 days May had, the most transited station would've had 360 departures **per day**, or equivalently, having it been emptied 4.8 times on average each day.
+
+On the other hand, given the bike influx, it would've been filled about 8.8 times **each day**. This means that, on average, the station had to be artificially emptied at least 4 times on average (given bikes cannot be accumulated beyond the station's capacity).
 
 ## How does usage look like by hour of the day?
 
