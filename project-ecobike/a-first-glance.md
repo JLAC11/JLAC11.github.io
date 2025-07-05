@@ -92,6 +92,12 @@ Notably, those are also the largest stations (as it would be expected). However,
 
 On the other hand, given the bike influx, it would've been filled about 8.8 times **each day**. This means that, on average, the station had to be artificially emptied at least 4 times on average (given bikes cannot be accumulated beyond the station's capacity).
 
+This differential could suggest two things (also applicable to other stations):
+
+1. Stations can be emptied artificially faster than they can be filled. This happens because removed bikes can be placed into any other close station, but bringing them to the place they're actually needed might require tou to visit several stations before being able to fill the required stations. This can cause an imbalance in trips: no bikes available at the station implies no possibility to start a trip there.
+2. People do not necessarily have a same start and end route for the day, and might supplement their trips with other transport media (e.g., the bus, Metro, or ridehailing services).[^2]
+
+
 ## How does usage look like by hour of the day?
 
 |   Hour |   Trips (count) |   Duration (min) - Mean |   Duration (min) - Min |   Duration (min) - Max |   Duration (min) - Median |   Duration (min) - 90th Percentile |
@@ -169,3 +175,5 @@ Most pairs have even less than 25 trips, and by the 100-trip-mark, nearly no sta
 I'll continue adding information next in [a second mini-post](looking-at-origin-destination-data.md), where I'll discuss more properties we can learn from inspecting origin-destination data.
 
 [^1]: [Data from May 2025](https://ecobici.cdmx.gob.mx/datos-abiertos/).
+
+[^2]: We can support this argument by looking at origin and destination by the time of day. I'll leave an annex [on a separate page](datasource/annex-trips.md) if you want to followup on this, but I won't be discussing it further.
