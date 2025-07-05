@@ -97,7 +97,6 @@ This differential could suggest two things (also applicable to other stations):
 1. Stations can be emptied artificially faster than they can be filled. This happens because removed bikes can be placed into any other close station, but bringing them to the place they're actually needed might require tou to visit several stations before being able to fill the required stations. This can cause an imbalance in trips: no bikes available at the station implies no possibility to start a trip there.
 2. People do not necessarily have a same start and end route for the day, and might supplement their trips with other transport media (e.g., the bus, Metro, or ridehailing services).[^2]
 
-
 ## How does usage look like by hour of the day?
 
 |   Hour |   Trips (count) |   Duration (min) - Mean |   Duration (min) - Min |   Duration (min) - Max |   Duration (min) - Median |   Duration (min) - 90th Percentile |
@@ -137,7 +136,7 @@ Seeing this, then we can conclude that, effectively, this is caused by the commu
 
 ## Which are the most common routes?  
 
-We've seen the most common origins and destinations, but we've yet to see which are the most common routes. Let's take a look at them: 
+We've seen the most common origins and destinations, but we've yet to see which are the most common routes. Let's take a look at them:  
 
 | Route (origin, destination)           |   Count |
 |------------------------------------------------------------------------------------------------------------------------|--------|

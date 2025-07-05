@@ -13,7 +13,6 @@ All analyses shown here will attempt to answer the following questions:
 - How do trips look like in the Ecobici network? (Origin-Destination matrix analysis)
 - Is there some clear unsatisifed demand in this network? (Demand analysis integrating the aforementioned topics)
 
-
 Frankly, I had thought of building a much more formal document than this blog, but given time constraints (as well as just wishing to *not* sit for hours at a time doing this), I've decided to go into a more atomic format, sharing over here every once in a while small advances.
 Given this, you can start looking at the [data at a first glance](a-first-glance.md)
 
