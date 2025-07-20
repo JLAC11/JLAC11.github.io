@@ -2,7 +2,7 @@
 title: A first glance at Ecobici data
 ---
 
-Let's take a first look at what can be found in the Ecobici dataset[^1].
+Let's take a first look at what can be found in the Ecobici dataset[^1], viewing the most common origin and destination stations.
 
 ## Origins
 
@@ -61,6 +61,8 @@ This station is in Buenavista, near a Metro and a Metrobus stations.
 
 ![Buenavista station](/assets/images/Buenavista_map.png)
 
+This station is not very close to the geographical center of the Ecobici network, but it connects other transportation media that are better suited for longer routes.
+
 One interesting feature is that the number of trips the largest station receives (as a destination) is nearly twice the amount of trips coming out. Not only that, but its sister station also accounts for nearly as many destinations as origins from "CE-271-272 Jesús García - Carlos J. Meneses".  
 
 Looking at the largest stations, we can see that those are also the largest stations:  
@@ -97,7 +99,7 @@ This differential could suggest two things (also applicable to other stations):
 1. Stations can be emptied artificially faster than they can be filled. This happens because removed bikes can be placed into any other close station, but bringing them to the place they're actually needed might require tou to visit several stations before being able to fill the required stations. This can cause an imbalance in trips: no bikes available at the station implies no possibility to start a trip there.
 2. People do not necessarily have a same start and end route for the day, and might supplement their trips with other transport media (e.g., the bus, Metro, or ridehailing services).[^2]
 
-## How does usage look like by hour of the day?
+## How does usage vary hour by hour?
 
 |   Hour |   Trips (count) |   Duration (min) - Mean |   Duration (min) - Min |   Duration (min) - Max |   Duration (min) - Median |   Duration (min) - 90th Percentile |
 |----------------|---------------------|-----------------------------|----------------------------|----------------------------|-------------------------------|------------------------------------|
@@ -125,6 +127,7 @@ This differential could suggest two things (also applicable to other stations):
 Notably, there is a mid-day lull with most trips happening either in the morning or in the afternoon (as to be expected if this is used for commuting). It's also remarkable that 90% of the trips last about half an hour or less.
 
 ![Travel trip duration](/assets/images/travel_duration_distribution.png)
+
 
 ![Usage by hour](/assets/images/usage_by_hour.png)
 
