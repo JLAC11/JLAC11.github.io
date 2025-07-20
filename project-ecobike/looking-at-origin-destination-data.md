@@ -11,9 +11,9 @@ Given the limitations that we have on our dataset, we won't be considering the p
 
 To represent the origin-destination data, we'll be looking at it as a weighted directed adjacency matrix. For context, it basically means the following:
 
-1. **Adjacency matrix**: we'll represent each possible origin-destination trip with a matrix $X$, where each entry $x_{(i,j)} \in X$ will represent each (origin, destination) pair.
-2. **Weighted**: each entry $x_{(i,j)} \in X$ will have a value equal to the total number of trips that happened in the dataset. More frequently transited routes will have a higher importance than less frequently transited ones.  
-3. **Directed**: since we noticed [previously](a-first-glance.md#comments) that the inflow at each station is quite different than the outflow, we'll want to take that into consideration. This basically means that the matrix $X$ will not be symmetric (meaning the entry $x_{(i,j)} \neq x_{(j,i)}$)
+1. **Adjacency matrix**: we'll represent each possible origin-destination trip with a matrix $`X`$, where each entry $`x_{(i,j)} \in X`$ will represent each (origin, destination) pair.
+2. **Weighted**: each entry $`x_{(i,j)} \in X`$ will have a value equal to the total number of trips that happened in the dataset. More frequently transited routes will have a higher importance than less frequently transited ones.  
+3. **Directed**: since we noticed [previously](a-first-glance.md#comments) that the inflow at each station is quite different than the outflow, we'll want to take that into consideration. This basically means that the matrix $X$ will not be symmetric (meaning the entry $`x_{(i,j)} \neq x_{(j,i)}`$)
 
 Having all this in mind, then we'll be able to leverage network analysis tools to answer several questions, like the following:
 
