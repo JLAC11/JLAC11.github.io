@@ -5,6 +5,7 @@ description: My portfolio, containing some of my personal projects and blog post
 #remote_theme: pages-themes/minimal@v0.2.0
 theme: minima
 markdown: kramdown
+usemathjax: true
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
