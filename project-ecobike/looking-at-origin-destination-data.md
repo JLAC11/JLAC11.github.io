@@ -1,5 +1,6 @@
 ---
 title: "Looking at Origin-Destination data"
+usemathjax: true
 ---
 
 
