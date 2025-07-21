@@ -172,6 +172,8 @@ Let's now take a look at how the number of trips per origin-destination pair are
 
 Most pairs have even less than 25 trips, and by the 100-trip-mark, nearly no stations remain.
 
+This shows that there are just some routes that dominate in transport, while lots of routes are sparsely travelled.
+
 ## Continuing with the analysis
 
 I'll continue adding information next in [a second mini-post](looking-at-origin-destination-data.md), where I'll discuss more properties we can learn from inspecting origin-destination data.
