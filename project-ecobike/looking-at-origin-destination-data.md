@@ -37,3 +37,18 @@ At a quick glance, we can notice the following:
   
   - There's a line of stations going from north to south that scores relatively high. This line is near Insurgentes (one of the main streets in Mexico City), which also has a bike lane.
   - In the northeastern coverage area, several centrality metrics score highly (in-degree, out-degree, eigenvector, Katz centralities). These are all near Buenavista (which, if you'll [recall](a-first-glance.md#comments), was the busiest station in the full network), which makes sense, given just how many people move through that particular station.
+- The in-degree and out-degree centralities are different in magnitude for these stations, which suggests an imbalance. This imbalance can be seen in the bottom-right chart, showing the difference between in-degree and out-degree centralities. Looking at this, we can see that stations near the eastern part of the grid tend to receive more bikes, while the western of the network tend to get depleted.
+
+Looking at this last point, we can take a look at how these imbalances look throughout the month. We'll consider this imbalance by adding each arrival at a given station, and subtracting each departure from the same station, ordered by timestamp throughout the month. Here's the chart depicting this:
+![Imbalance throughout the month](/assets/images/cumulative_imbalance_may2025.png)
+
+And looking at this, we can see several patterns:
+
+1. Lots of stations tend to be somewhat balanced, on average, and fall near the center (meaning they don't get depleted consistently, or filled consistently as well)
+2. There are some outlier stations that are much more frequently arrivals than destinations[^1]. Inspecting these outliers, we see two sub-patterns within them:
+    1. Some have "jagged" figures, where we can clearly see they get much more filled at a certain point in day, but then get depleted. These rates are not equal, which causes the accumulated imbalance. We can assume that these *spikes* happen because the station reaches its capacity constraints (either because it completely fills, or because it completely empties).
+    2. Some have "smooth" trajectories, suggesting they consistently get accumulated / depleted. We can hypothesize this happens due to geographical constraints (say, if the station is found uphill respect to its origins).
+
+Let's later confirm these hypotheses, which might bring interesting insights \[WIP\]
+
+[^1]: Remembering the definition of in-degree and out-degree, if we subtract the out-degree from the in-degree, we'd get the final point for each station on this chart.
