@@ -74,11 +74,7 @@ Recently, I've thought a lot about the credit conditions here in Mexico.
           <label>PSA Override</label>
           <div class="control-row">
             <input
-              type="range"
-              min="0"
-              max="1"
-              step="1"
-              value="0"
+              type="checkbox"
               id="sl-override-toggle"
               title="Toggle manual PSA"
             />
