@@ -15,8 +15,8 @@
     <ul class="footer-social">
       {%- for entry in site.social_links -%}
       <li>
-        <a rel="me" href="{{ entry.user_url }}" title="{{ entry.platform | capitalize }}">
-          <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#' | append: entry.platform | relative_url }}"></use></svg>
+        <a rel="me" style="align-items: stretch;" href="{{ entry.user_url }}" title="{{ entry.platform | capitalize }}">
+          <svg class="svg-icon" style="height: 2em; width:2em;"><use xlink:href="{{ '/assets/minima-social-icons.svg#' | append: entry.platform | relative_url }}"></use></svg>
           <span class="username">{{ entry.platform | capitalize }}</span>
         </a>
       </li>
