@@ -77,6 +77,7 @@ Recently, I've thought a lot about the credit conditions here in Mexico.
               type="checkbox"
               id="sl-override-toggle"
               title="Toggle manual PSA"
+              style="position: relative;display: inline-block;width: 40px;height: 22px;"
             />
             <span
               class="control-val"
@@ -703,7 +704,7 @@ Recently, I've thought a lot about the credit conditions here in Mexico.
         const years = +document.getElementById("sl-years").value;
         const friction = +document.getElementById("sl-friction").value;
         const overrideOn =
-          +document.getElementById("sl-override-toggle").value === 1;
+          +document.getElementById("sl-override-toggle").checked;
 
         document.getElementById("v-rate").textContent = coupon.toFixed(1) + "%";
         document.getElementById("v-mkt").textContent = mkt.toFixed(1) + "%";
