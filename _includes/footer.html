@@ -2,50 +2,25 @@
   <link rel="stylesheet" href="/assets/css/footer.css">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
-  <div class="wrapper footer-flex-wrapper">
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1" style="align-items: center;">
-        <table style="border: none; margin: 0; padding: 0;">
-          <tr style="border: none;">
-        <td style="border: none;">
-        <img src="{{ site.author_image | default: '/assets/images/JLAC.JPEG' | relative_url }}" alt="{{ site.author | escape }}" class="avatar" style="border-radius:10%; height:5rem;float:left; width: auto;">
-        </td>
-        <td style="border: none;">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-        </td>
-        </tr>
-        </table>
-      </div>
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {%- for entry in site.social_links -%}
-          <li>
-            <a rel="me" href="{{ entry.user_url }}" title="{{ entry.platform | capitalize }}">
-              <svg class="svg-icon">
-                <use xlink:href="{{ '/assets/minima-social-icons.svg#' | append: entry.platform | relative_url }}"></use>
-              </svg>
-              <span class="username">{{ entry.platform | capitalize }}</span>
-            </a>
-          </li>
-          {%- endfor -%}
-        </ul>
-      </div>
-      
+  <div class="wrapper footer-inner">
+    <div class="footer-identity">
+      <span class="p-name">
+        {%- if site.author -%}{{ site.author | escape }}{%- else -%}{{ site.title | escape }}{%- endif -%}
+      </span>
+      {%- if site.email -%}
+      <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+      {%- endif -%}
     </div>
+
+    <ul class="footer-social">
+      {%- for entry in site.social_links -%}
+      <li>
+        <a rel="me" href="{{ entry.user_url }}" title="{{ entry.platform | capitalize }}">
+          <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#' | append: entry.platform | relative_url }}"></use></svg>
+          <span class="username">{{ entry.platform | capitalize }}</span>
+        </a>
+      </li>
+      {%- endfor -%}
+    </ul>
   </div>
-  <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
 </footer>
