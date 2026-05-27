@@ -36,7 +36,7 @@ Recently, I've thought a lot about the credit conditions here in Mexico.
               min="2"
               max="15"
               step="0.1"
-              value="6.5"
+              value="12.5"
               id="sl-rate"
             />
             <span class="control-val" id="v-rate">6.5%</span>
@@ -50,7 +50,7 @@ Recently, I've thought a lot about the credit conditions here in Mexico.
               min="1"
               max="15"
               step="0.1"
-              value="6.5"
+              value="12.5"
               id="sl-mkt"
             />
             <span class="control-val" id="v-mkt">6.5%</span>
@@ -64,7 +64,7 @@ Recently, I've thought a lot about the credit conditions here in Mexico.
               min="5"
               max="30"
               step="5"
-              value="30"
+              value="20"
               id="sl-years"
             />
             <span class="control-val" id="v-years">30</span>
